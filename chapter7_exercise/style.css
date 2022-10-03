@@ -1,0 +1,34 @@
+* {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.content-title {
+  padding: 20px 0 0 20px;
+}
+
+.content-img {
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-image: url(/chapter7_exercise/img/mv.jpg);
+  background-position: center;
+}
+.content-lists {
+  margin: 0 auto;
+  display: block;
+  width: 840px;
+}
+
+.content-list {
+  margin-top: 30px;
+  text-align: left;
+  padding-bottom: 30px;
+  border-bottom: solid 1px #000;
+}
+
+/* 1つめの要素のみcssを変更 */
+.content-lists li:first-child {
+  margin-top: 50px;
+}
