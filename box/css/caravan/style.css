@@ -60,13 +60,50 @@ header .heading {
 }
 
 .blog {
-  width: 600px; /* 横幅600px */
-  height: 1400px; /* 高さ1400px */
+  width: 540px;
+  margin-top: 30px; /* 領域の右側余白 */
 }
 
+.blog-heading {
+  border-bottom: 8px solid #f7f7f7;
+  text-align: center;
+  line-height: 0.6;
+}
+.blog-box {
+  padding-top: 50px;
+}
+.blog-item {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #f7f7f7;
+  display: flex;
+  /* flex itemを先頭に寄せる */
+  justify-content: flex-start;
+}
+.blog-image {
+  height: 180px;
+}
+.blog-date {
+  font-size: 12px;
+  display: inline-block;
+}
+.blog-text {
+  color: white;
+  padding: 25px 0 0 30px;
+}
+.blog-text-heading {
+  margin-bottom: 15px;
+}
+.category {
+  display: inline-block;
+  padding: 5px 8px;
+  background-color: #acabab;
+  border-radius: 3px;
+  color: white;
+  font-size: 11px;
+}
 .sidebar {
-  width: 240px; /* 横幅240px */
-  height: 1400px; /* 高さ1400px */
+  width: 230px;
 }
 
 footer {
