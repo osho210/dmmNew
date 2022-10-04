@@ -244,6 +244,9 @@ footer {
     width: 100%;
     padding: 0 2%;
   }
+  .popular-heading {
+    margin-top: 30px;
+  }
   .blog {
     width: 100%;
     margin-top: 50px;
