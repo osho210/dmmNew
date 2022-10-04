@@ -13,7 +13,7 @@
   height: 400px;
   background-size: cover;
   background-image: url(/chapter7_exercise/img/mv.jpg);
-  background-position: center;
+  background-position: bottom;
 }
 .content-lists {
   margin: 0 auto;
