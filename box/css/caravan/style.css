@@ -232,3 +232,34 @@ footer {
 .footer-text {
   color: #fff;
 }
+
+/* スマートフォンサイズ（425px）以下の際に適用される設定 */
+@media screen and (max-width: 450px) {
+  body {
+    width: 450px;
+  }
+  /* 要素の縦揃え */
+  main {
+    display: block;
+    width: 100%;
+    padding: 0 2%;
+  }
+  .blog {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .sidebar {
+    width: 100%;
+  }
+
+  .instagram {
+    margin: 0 auto;
+  }
+  .instagram-box {
+    width: 130px;
+  }
+  .instagram .sidebar-contents {
+    width: 100%;
+    gap: 2px;
+  }
+}
